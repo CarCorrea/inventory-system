@@ -1,0 +1,1940 @@
+2025-09-16 03:24:04.707 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - Starting ChallengeApplication using Java 17.0.12 with PID 456 (C:\Users\yule1\Documents\Projects\meli\target\classes started by yule1 in C:\Users\yule1\Documents\Projects\meli)
+2025-09-16 03:24:04.710 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-09-16 03:24:04.802 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-16 03:24:04.802 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-16 03:24:05.730 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:24:05.731 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:24:05.741 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:24:05.741 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:24:05.755 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:24:05.755 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:24:05.781 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:24:05.781 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:24:05.793 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:24:05.793 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:24:05.808 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:24:05.808 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:24:05.820 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:24:05.822 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:24:06.072 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-16 03:24:06.148 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2025-09-16 03:24:07.595 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-09-16 03:24:07.615 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-09-16 03:24:07.615 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-16 03:24:07.668 [restartedMain] INFO  [o.a.c.c.C.[.[localhost].[/api/v1]] - Initializing Spring embedded WebApplicationContext
+2025-09-16 03:24:07.668 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2865 ms
+2025-09-16 03:24:08.065 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-16 03:24:08.163 [restartedMain] INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-16 03:24:08.225 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-09-16 03:24:08.707 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-16 03:24:08.759 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2025-09-16 03:24:08.964 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:inventorydb user=SA
+2025-09-16 03:24:08.965 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2025-09-16 03:24:08.987 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-16 03:24:09.014 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-16 03:24:09.921 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-16 03:24:09.936 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:24:09.940 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:24:09.941 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:24:09.941 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:24:09.946 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table inventory (
+        available integer not null,
+        reserved integer not null,
+        total integer not null,
+        id bigint generated by default as identity,
+        last_updated timestamp(6),
+        version bigint,
+        product_id varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (id)
+    )
+2025-09-16 03:24:09.955 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table product (
+        price float(53) not null,
+        created_at timestamp(6),
+        updated_at timestamp(6),
+        description varchar(1000),
+        name varchar(255) not null,
+        product_id varchar(255) not null,
+        primary key (product_id)
+    )
+2025-09-16 03:24:09.957 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table reservations (
+        quantity integer not null,
+        created_at timestamp(6),
+        expires_at timestamp(6),
+        confirmation_code varchar(255),
+        customer_id varchar(255),
+        product_id varchar(255) not null,
+        reservation_id varchar(255) not null,
+        store_id varchar(255) not null,
+        status enum ('ACTIVE','CANCELLED','CONFIRMED','EXPIRED') not null,
+        primary key (reservation_id)
+    )
+2025-09-16 03:24:09.960 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table stores (
+        latitude float(53) not null,
+        longitude float(53) not null,
+        created_at timestamp(6),
+        address varchar(255) not null,
+        name varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (store_id)
+    )
+2025-09-16 03:24:09.966 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:24:10.509 [restartedMain] INFO  [o.s.d.j.r.query.QueryEnhancerFactory] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-16 03:24:11.929 [restartedMain] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulingConfig' defined in file [C:\Users\yule1\Documents\Projects\meli\target\classes\com\challenge\meli\inventory\config\SchedulingConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'inventoryService' defined in file [C:\Users\yule1\Documents\Projects\meli\target\classes\com\challenge\meli\inventory\service\InventoryService.class]: Advisor sorting failed with unexpected bean creation, probably due to custom use of the Ordered interface. Consider using the @Order annotation instead.
+2025-09-16 03:24:11.930 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:24:11.931 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:24:11.932 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:24:11.933 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:24:11.933 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:24:11.940 [restartedMain] WARN  [o.s.b.f.s.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-16 03:24:11.940 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2025-09-16 03:24:11.942 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2025-09-16 03:24:11.946 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2025-09-16 03:24:11.966 [restartedMain] INFO  [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16 03:24:11.995 [restartedMain] ERROR [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'resilience4j.circuitbreaker.instances.inventory-service.ignore-exceptions[0]' to java.lang.Class<java.lang.Throwable>:
+
+    Property: resilience4j.circuitbreaker.instances.inventory-service.ignore-exceptions[0]
+    Value: "com.retail.inventory.exception.ReservationNotFoundException"
+    Origin: class path resource [application.yml] - 195:13
+    Reason: failed to convert java.lang.String to java.lang.Class<java.lang.Throwable> (caused by java.lang.ClassNotFoundException: com.retail.inventory.exception.ReservationNotFoundException)
+
+Action:
+
+Update your application's configuration
+
+2025-09-16 03:26:44.850 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - Starting ChallengeApplication using Java 17.0.12 with PID 19392 (C:\Users\yule1\Documents\Projects\meli\target\classes started by yule1 in C:\Users\yule1\Documents\Projects\meli)
+2025-09-16 03:26:44.853 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-09-16 03:26:44.901 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-16 03:26:44.901 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-16 03:26:45.796 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:26:45.796 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:26:45.813 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:26:45.813 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:26:45.819 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:26:45.819 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:26:45.828 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:26:45.828 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:26:45.844 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:26:45.844 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:26:45.860 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:26:45.860 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:26:45.860 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:26:45.860 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:26:46.006 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-16 03:26:46.080 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2025-09-16 03:26:47.364 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-09-16 03:26:47.396 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-09-16 03:26:47.396 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-16 03:26:47.459 [restartedMain] INFO  [o.a.c.c.C.[.[localhost].[/api/v1]] - Initializing Spring embedded WebApplicationContext
+2025-09-16 03:26:47.459 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2558 ms
+2025-09-16 03:26:47.926 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-16 03:26:48.056 [restartedMain] INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-16 03:26:48.134 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-09-16 03:26:48.468 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-16 03:26:48.516 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2025-09-16 03:26:48.675 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:inventorydb user=SA
+2025-09-16 03:26:48.675 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2025-09-16 03:26:48.722 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-16 03:26:48.758 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-16 03:26:49.714 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-16 03:26:49.745 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:26:49.747 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:26:49.747 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:26:49.747 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:26:49.747 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table inventory (
+        available integer not null,
+        reserved integer not null,
+        total integer not null,
+        id bigint generated by default as identity,
+        last_updated timestamp(6),
+        version bigint,
+        product_id varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (id)
+    )
+2025-09-16 03:26:49.761 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table product (
+        price float(53) not null,
+        created_at timestamp(6),
+        updated_at timestamp(6),
+        description varchar(1000),
+        name varchar(255) not null,
+        product_id varchar(255) not null,
+        primary key (product_id)
+    )
+2025-09-16 03:26:49.761 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table reservations (
+        quantity integer not null,
+        created_at timestamp(6),
+        expires_at timestamp(6),
+        confirmation_code varchar(255),
+        customer_id varchar(255),
+        product_id varchar(255) not null,
+        reservation_id varchar(255) not null,
+        store_id varchar(255) not null,
+        status enum ('ACTIVE','CANCELLED','CONFIRMED','EXPIRED') not null,
+        primary key (reservation_id)
+    )
+2025-09-16 03:26:49.765 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table stores (
+        latitude float(53) not null,
+        longitude float(53) not null,
+        created_at timestamp(6),
+        address varchar(255) not null,
+        name varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (store_id)
+    )
+2025-09-16 03:26:49.773 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:26:50.262 [restartedMain] INFO  [o.s.d.j.r.query.QueryEnhancerFactory] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-16 03:26:51.801 [restartedMain] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'schedulingConfig' defined in file [C:\Users\yule1\Documents\Projects\meli\target\classes\com\challenge\meli\inventory\config\SchedulingConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'inventoryService' defined in file [C:\Users\yule1\Documents\Projects\meli\target\classes\com\challenge\meli\inventory\service\InventoryService.class]: Advisor sorting failed with unexpected bean creation, probably due to custom use of the Ordered interface. Consider using the @Order annotation instead.
+2025-09-16 03:26:51.801 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:26:51.801 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:26:51.807 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:26:51.809 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:26:51.809 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:26:51.819 [restartedMain] WARN  [o.s.b.f.s.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-16 03:26:51.819 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2025-09-16 03:26:51.819 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2025-09-16 03:26:51.819 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2025-09-16 03:26:51.849 [restartedMain] INFO  [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-16 03:26:51.893 [restartedMain] ERROR [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'resilience4j.circuitbreaker.instances.inventory-service.ignore-exceptions[0]' to java.lang.Class<java.lang.Throwable>:
+
+    Property: resilience4j.circuitbreaker.instances.inventory-service.ignore-exceptions[0]
+    Value: "ccom.challenge.meli.inventory.exception.ReservationNotFoundException"
+    Origin: class path resource [application.yml] - 195:13
+    Reason: failed to convert java.lang.String to java.lang.Class<java.lang.Throwable> (caused by java.lang.ClassNotFoundException: ccom.challenge.meli.inventory.exception.ReservationNotFoundException)
+
+Action:
+
+Update your application's configuration
+
+2025-09-16 03:27:22.071 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - Starting ChallengeApplication using Java 17.0.12 with PID 20428 (C:\Users\yule1\Documents\Projects\meli\target\classes started by yule1 in C:\Users\yule1\Documents\Projects\meli)
+2025-09-16 03:27:22.074 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-09-16 03:27:22.136 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-16 03:27:22.137 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-16 03:27:22.960 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:27:22.962 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:27:22.973 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:27:22.973 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:27:22.991 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:27:22.991 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:27:23.003 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:27:23.003 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:27:23.014 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:27:23.014 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:27:23.030 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:27:23.030 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:27:23.041 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:27:23.042 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:27:23.197 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-16 03:27:23.274 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2025-09-16 03:27:24.555 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-09-16 03:27:24.578 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-09-16 03:27:24.578 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-16 03:27:24.624 [restartedMain] INFO  [o.a.c.c.C.[.[localhost].[/api/v1]] - Initializing Spring embedded WebApplicationContext
+2025-09-16 03:27:24.625 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2488 ms
+2025-09-16 03:27:24.970 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-16 03:27:25.039 [restartedMain] INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-16 03:27:25.089 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-09-16 03:27:25.498 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-16 03:27:25.545 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2025-09-16 03:27:25.711 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:inventorydb user=SA
+2025-09-16 03:27:25.716 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2025-09-16 03:27:25.735 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-16 03:27:25.763 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-16 03:27:26.592 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-16 03:27:26.607 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:27:26.611 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:27:26.611 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:27:26.611 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:27:26.614 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table inventory (
+        available integer not null,
+        reserved integer not null,
+        total integer not null,
+        id bigint generated by default as identity,
+        last_updated timestamp(6),
+        version bigint,
+        product_id varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (id)
+    )
+2025-09-16 03:27:26.624 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table product (
+        price float(53) not null,
+        created_at timestamp(6),
+        updated_at timestamp(6),
+        description varchar(1000),
+        name varchar(255) not null,
+        product_id varchar(255) not null,
+        primary key (product_id)
+    )
+2025-09-16 03:27:26.626 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table reservations (
+        quantity integer not null,
+        created_at timestamp(6),
+        expires_at timestamp(6),
+        confirmation_code varchar(255),
+        customer_id varchar(255),
+        product_id varchar(255) not null,
+        reservation_id varchar(255) not null,
+        store_id varchar(255) not null,
+        status enum ('ACTIVE','CANCELLED','CONFIRMED','EXPIRED') not null,
+        primary key (reservation_id)
+    )
+2025-09-16 03:27:26.628 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table stores (
+        latitude float(53) not null,
+        longitude float(53) not null,
+        created_at timestamp(6),
+        address varchar(255) not null,
+        name varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (store_id)
+    )
+2025-09-16 03:27:26.632 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:27:27.175 [restartedMain] INFO  [o.s.d.j.r.query.QueryEnhancerFactory] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-16 03:27:30.276 [restartedMain] INFO  [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:inventorydb'
+2025-09-16 03:27:30.469 [restartedMain] WARN  [o.s.b.a.s.s.UserDetailsServiceAutoConfiguration] - 
+
+Using generated security password: 15e449ec-7439-477b-80d2-77417a7ff06a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-16 03:27:30.486 [restartedMain] INFO  [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-16 03:27:30.842 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-09-16 03:27:30.890 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/api/v1'
+2025-09-16 03:27:30.905 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - Started ChallengeApplication in 9.484 seconds (process running for 9.968)
+2025-09-16 03:27:30.924 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initializing sample data 
+2025-09-16 03:27:30.986 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:27:31.017 [scheduling-1] DEBUG [org.hibernate.SQL] - 
+    select
+        r1_0.reservation_id,
+        r1_0.confirmation_code,
+        r1_0.created_at,
+        r1_0.customer_id,
+        r1_0.expires_at,
+        r1_0.product_id,
+        r1_0.quantity,
+        r1_0.status,
+        r1_0.store_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.status='ACTIVE' 
+        and r1_0.expires_at<?
+2025-09-16 03:27:31.048 [scheduling-1] INFO  [c.c.m.i.service.InventoryService] - Cleaned up 0 expired reservations
+2025-09-16 03:27:31.061 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:27:31.062 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:27:31.064 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:27:31.066 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:27:31.067 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized 5 products
+2025-09-16 03:27:31.069 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:27:31.070 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:27:31.071 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:27:31.072 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:27:31.074 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:27:31.076 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized 5 stores
+2025-09-16 03:27:31.123 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.124 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.124 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.125 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.125 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.129 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.130 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.130 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.130 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.130 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:27:31.134 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0
+2025-09-16 03:27:31.139 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0
+2025-09-16 03:27:31.148 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.158 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.159 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.161 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.163 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.164 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.165 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.165 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.166 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.168 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.169 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.170 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.172 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.173 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.174 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.176 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.177 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.178 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.179 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.180 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.181 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.182 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.184 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.185 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.187 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:27:31.188 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized inventory for 25 product-store combinations
+2025-09-16 03:27:31.188 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Sample data initialization completed
+2025-09-16 03:31:46.597 [http-nio-8080-exec-9] INFO  [o.a.c.c.C.[.[localhost].[/api/v1]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-16 03:31:46.599 [http-nio-8080-exec-9] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-09-16 03:31:46.602 [http-nio-8080-exec-9] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-09-16 03:31:46.602 [http-nio-8080-exec-9] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-09-16 03:31:46.602 [http-nio-8080-exec-9] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-09-16 03:31:46.618 [http-nio-8080-exec-9] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@ba058c6
+2025-09-16 03:31:46.618 [http-nio-8080-exec-9] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@49f569dc
+2025-09-16 03:31:46.620 [http-nio-8080-exec-9] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-16 03:31:46.620 [http-nio-8080-exec-9] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 21 ms
+2025-09-16 03:32:30.969 [scheduling-1] DEBUG [org.hibernate.SQL] - 
+    select
+        r1_0.reservation_id,
+        r1_0.confirmation_code,
+        r1_0.created_at,
+        r1_0.customer_id,
+        r1_0.expires_at,
+        r1_0.product_id,
+        r1_0.quantity,
+        r1_0.status,
+        r1_0.store_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.status='ACTIVE' 
+        and r1_0.expires_at<?
+2025-09-16 03:32:30.979 [scheduling-1] INFO  [c.c.m.i.service.InventoryService] - Cleaned up 0 expired reservations
+2025-09-16 03:37:30.918 [scheduling-1] DEBUG [org.hibernate.SQL] - 
+    select
+        r1_0.reservation_id,
+        r1_0.confirmation_code,
+        r1_0.created_at,
+        r1_0.customer_id,
+        r1_0.expires_at,
+        r1_0.product_id,
+        r1_0.quantity,
+        r1_0.status,
+        r1_0.store_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.status='ACTIVE' 
+        and r1_0.expires_at<?
+2025-09-16 03:37:30.924 [scheduling-1] INFO  [c.c.m.i.service.InventoryService] - Cleaned up 0 expired reservations
+2025-09-16 03:37:34.089 [SpringApplicationShutdownHook] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-16 03:37:34.212 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-09-16 03:37:34.235 [SpringApplicationShutdownHook] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:37:34.246 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:37:34.252 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:37:34.253 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:37:34.253 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:37:34.282 [SpringApplicationShutdownHook] WARN  [o.s.b.f.s.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-16 03:37:34.283 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2025-09-16 03:37:34.286 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2025-09-16 03:40:55.033 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - Starting ChallengeApplication using Java 17.0.12 with PID 8144 (C:\Users\yule1\Documents\Projects\meli\target\classes started by yule1 in C:\Users\yule1\Documents\Projects\meli)
+2025-09-16 03:40:55.038 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-09-16 03:40:55.109 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-16 03:40:55.110 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-16 03:40:56.160 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:40:56.162 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:40:56.171 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:40:56.172 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:40:56.191 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:40:56.191 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:40:56.207 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:40:56.208 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:40:56.219 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:40:56.220 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:40:56.235 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:40:56.236 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:40:56.248 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:40:56.249 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:40:56.454 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-16 03:40:56.540 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2025-09-16 03:40:57.934 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-09-16 03:40:57.958 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-09-16 03:40:57.958 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-16 03:40:58.027 [restartedMain] INFO  [o.a.c.c.C.[.[localhost].[/api/v1]] - Initializing Spring embedded WebApplicationContext
+2025-09-16 03:40:58.028 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2917 ms
+2025-09-16 03:40:58.487 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-16 03:40:58.601 [restartedMain] INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-16 03:40:58.657 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-09-16 03:40:59.022 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-16 03:40:59.077 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2025-09-16 03:40:59.243 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:inventorydb user=SA
+2025-09-16 03:40:59.244 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2025-09-16 03:40:59.271 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-16 03:40:59.295 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-16 03:41:00.253 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-16 03:41:00.271 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:41:00.274 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:41:00.274 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:41:00.274 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:41:00.281 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table inventory (
+        available integer not null,
+        reserved integer not null,
+        total integer not null,
+        id bigint generated by default as identity,
+        last_updated timestamp(6),
+        version bigint,
+        product_id varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (id)
+    )
+2025-09-16 03:41:00.292 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table product (
+        price float(53) not null,
+        created_at timestamp(6),
+        updated_at timestamp(6),
+        description varchar(1000),
+        name varchar(255) not null,
+        product_id varchar(255) not null,
+        primary key (product_id)
+    )
+2025-09-16 03:41:00.294 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table reservations (
+        quantity integer not null,
+        created_at timestamp(6),
+        expires_at timestamp(6),
+        confirmation_code varchar(255),
+        customer_id varchar(255),
+        product_id varchar(255) not null,
+        reservation_id varchar(255) not null,
+        store_id varchar(255) not null,
+        status enum ('ACTIVE','CANCELLED','CONFIRMED','EXPIRED') not null,
+        primary key (reservation_id)
+    )
+2025-09-16 03:41:00.296 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table stores (
+        latitude float(53) not null,
+        longitude float(53) not null,
+        created_at timestamp(6),
+        address varchar(255) not null,
+        name varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (store_id)
+    )
+2025-09-16 03:41:00.300 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:41:00.843 [restartedMain] INFO  [o.s.d.j.r.query.QueryEnhancerFactory] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-16 03:41:03.949 [restartedMain] INFO  [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:inventorydb'
+2025-09-16 03:41:04.207 [restartedMain] WARN  [o.s.b.a.s.s.UserDetailsServiceAutoConfiguration] - 
+
+Using generated security password: a16abfb2-4b67-454b-8fcd-6b88744d9895
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-16 03:41:04.229 [restartedMain] INFO  [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-16 03:41:04.770 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-09-16 03:41:04.857 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/api/v1'
+2025-09-16 03:41:04.877 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - Started ChallengeApplication in 10.524 seconds (process running for 11.217)
+2025-09-16 03:41:04.908 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initializing sample data 
+2025-09-16 03:41:05.011 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:41:05.035 [scheduling-1] DEBUG [org.hibernate.SQL] - 
+    select
+        r1_0.reservation_id,
+        r1_0.confirmation_code,
+        r1_0.created_at,
+        r1_0.customer_id,
+        r1_0.expires_at,
+        r1_0.product_id,
+        r1_0.quantity,
+        r1_0.status,
+        r1_0.store_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.status='ACTIVE' 
+        and r1_0.expires_at<?
+2025-09-16 03:41:05.056 [scheduling-1] INFO  [c.c.m.i.service.InventoryService] - Cleaned up 0 expired reservations
+2025-09-16 03:41:05.064 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:41:05.065 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:41:05.066 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:41:05.067 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:41:05.067 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized 5 products
+2025-09-16 03:41:05.068 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:41:05.070 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:41:05.072 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:41:05.074 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:41:05.075 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:41:05.076 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized 5 stores
+2025-09-16 03:41:05.120 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.122 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.123 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.123 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.124 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.126 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.127 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.128 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.128 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.128 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:41:05.130 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0
+2025-09-16 03:41:05.134 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0
+2025-09-16 03:41:05.143 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.152 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.154 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.155 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.157 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.158 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.159 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.161 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.162 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.164 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.165 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.166 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.167 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.169 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.171 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.174 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.175 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.177 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.180 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.182 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.185 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.187 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.189 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.193 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.196 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:41:05.198 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized inventory for 25 product-store combinations
+2025-09-16 03:41:05.198 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Sample data initialization completed
+2025-09-16 03:41:11.507 [http-nio-8080-exec-1] INFO  [o.a.c.c.C.[.[localhost].[/api/v1]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-16 03:41:11.507 [http-nio-8080-exec-1] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-09-16 03:41:11.508 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-09-16 03:41:11.509 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-09-16 03:41:11.509 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-09-16 03:41:11.510 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2b82cee2
+2025-09-16 03:41:11.511 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2436d7b
+2025-09-16 03:41:11.511 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-16 03:41:11.511 [http-nio-8080-exec-1] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 3 ms
+2025-09-16 03:45:25.140 [SpringApplicationShutdownHook] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-16 03:45:25.249 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-09-16 03:45:25.257 [SpringApplicationShutdownHook] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:45:25.264 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:45:25.270 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:45:25.271 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:45:25.272 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:45:25.289 [SpringApplicationShutdownHook] WARN  [o.s.b.f.s.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-16 03:45:25.290 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2025-09-16 03:45:25.291 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2025-09-16 03:45:40.809 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - Starting ChallengeApplication using Java 17.0.12 with PID 27072 (C:\Users\yule1\Documents\Projects\meli\target\classes started by yule1 in C:\Users\yule1\Documents\Projects\meli)
+2025-09-16 03:45:40.813 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - No active profile set, falling back to 1 default profile: "default"
+2025-09-16 03:45:40.887 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-16 03:45:40.887 [restartedMain] INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-16 03:45:41.789 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:45:41.791 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:45:41.805 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:45:41.805 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:45:41.818 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:45:41.819 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:45:41.827 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:45:41.828 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:45:41.835 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:45:41.835 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:45:41.850 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:45:41.850 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:45:41.859 [restartedMain] DEBUG [i.g.r.s.u.RxJava2OnClasspathCondition] - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-09-16 03:45:41.860 [restartedMain] DEBUG [i.g.r.s.u.ReactorOnClasspathCondition] - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-09-16 03:45:42.015 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-16 03:45:42.080 [restartedMain] INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+2025-09-16 03:45:43.540 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2025-09-16 03:45:43.552 [restartedMain] INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2025-09-16 03:45:43.553 [restartedMain] INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-16 03:45:43.605 [restartedMain] INFO  [o.a.c.c.C.[.[localhost].[/api/v1]] - Initializing Spring embedded WebApplicationContext
+2025-09-16 03:45:43.605 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2717 ms
+2025-09-16 03:45:44.058 [restartedMain] INFO  [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-16 03:45:44.161 [restartedMain] INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-16 03:45:44.223 [restartedMain] INFO  [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2025-09-16 03:45:44.593 [restartedMain] INFO  [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-16 03:45:44.638 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2025-09-16 03:45:44.832 [restartedMain] INFO  [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:inventorydb user=SA
+2025-09-16 03:45:44.834 [restartedMain] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2025-09-16 03:45:44.860 [restartedMain] WARN  [org.hibernate.orm.deprecation] - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-16 03:45:44.881 [restartedMain] INFO  [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-16 03:45:45.785 [restartedMain] INFO  [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-16 03:45:45.800 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:45:45.803 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:45:45.803 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:45:45.803 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:45:45.808 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table inventory (
+        available integer not null,
+        reserved integer not null,
+        total integer not null,
+        id bigint generated by default as identity,
+        last_updated timestamp(6),
+        version bigint,
+        product_id varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (id)
+    )
+2025-09-16 03:45:45.816 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table product (
+        price float(53) not null,
+        created_at timestamp(6),
+        updated_at timestamp(6),
+        description varchar(1000),
+        name varchar(255) not null,
+        product_id varchar(255) not null,
+        primary key (product_id)
+    )
+2025-09-16 03:45:45.820 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table reservations (
+        quantity integer not null,
+        created_at timestamp(6),
+        expires_at timestamp(6),
+        confirmation_code varchar(255),
+        customer_id varchar(255),
+        product_id varchar(255) not null,
+        reservation_id varchar(255) not null,
+        store_id varchar(255) not null,
+        status enum ('ACTIVE','CANCELLED','CONFIRMED','EXPIRED') not null,
+        primary key (reservation_id)
+    )
+2025-09-16 03:45:45.822 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    create table stores (
+        latitude float(53) not null,
+        longitude float(53) not null,
+        created_at timestamp(6),
+        address varchar(255) not null,
+        name varchar(255) not null,
+        store_id varchar(255) not null,
+        primary key (store_id)
+    )
+2025-09-16 03:45:45.826 [restartedMain] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:45:46.383 [restartedMain] INFO  [o.s.d.j.r.query.QueryEnhancerFactory] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-16 03:45:48.301 [restartedMain] WARN  [o.s.b.a.s.s.UserDetailsServiceAutoConfiguration] - 
+
+Using generated security password: b09f62d8-10fe-4071-a852-bcb2e937a230
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-16 03:45:48.314 [restartedMain] INFO  [o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer] - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-16 03:45:49.810 [restartedMain] INFO  [o.s.b.a.h.H2ConsoleAutoConfiguration] - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:inventorydb'
+2025-09-16 03:45:50.062 [restartedMain] INFO  [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+2025-09-16 03:45:50.125 [restartedMain] INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/api/v1'
+2025-09-16 03:45:50.142 [restartedMain] INFO  [c.c.m.inventory.ChallengeApplication] - Started ChallengeApplication in 10.138 seconds (process running for 10.671)
+2025-09-16 03:45:50.161 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initializing sample data 
+2025-09-16 03:45:50.225 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:45:50.254 [scheduling-1] DEBUG [org.hibernate.SQL] - 
+    select
+        r1_0.reservation_id,
+        r1_0.confirmation_code,
+        r1_0.created_at,
+        r1_0.customer_id,
+        r1_0.expires_at,
+        r1_0.product_id,
+        r1_0.quantity,
+        r1_0.status,
+        r1_0.store_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.status='ACTIVE' 
+        and r1_0.expires_at<?
+2025-09-16 03:45:50.280 [scheduling-1] INFO  [c.c.m.i.service.InventoryService] - Cleaned up 0 expired reservations
+2025-09-16 03:45:50.291 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:45:50.293 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:45:50.294 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:45:50.296 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0 
+    where
+        p1_0.product_id=?
+2025-09-16 03:45:50.296 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized 5 products
+2025-09-16 03:45:50.298 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:45:50.301 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:45:50.302 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:45:50.304 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:45:50.305 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0 
+    where
+        s1_0.store_id=?
+2025-09-16 03:45:50.308 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized 5 stores
+2025-09-16 03:45:50.345 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.347 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.348 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.348 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.348 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        product
+        (created_at, description, name, price, updated_at, product_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.351 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.351 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.352 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.352 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.352 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        stores
+        (address, created_at, latitude, longitude, name, store_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2025-09-16 03:45:50.354 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        p1_0.product_id,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.name,
+        p1_0.price,
+        p1_0.updated_at 
+    from
+        product p1_0
+2025-09-16 03:45:50.359 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    select
+        s1_0.store_id,
+        s1_0.address,
+        s1_0.created_at,
+        s1_0.latitude,
+        s1_0.longitude,
+        s1_0.name 
+    from
+        stores s1_0
+2025-09-16 03:45:50.371 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.382 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.383 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.384 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.385 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.386 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.388 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.389 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.390 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.392 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.393 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.394 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.395 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.396 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.397 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.399 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.401 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.402 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.403 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.403 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.404 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.406 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.407 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.409 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.410 [restartedMain] DEBUG [org.hibernate.SQL] - 
+    insert 
+    into
+        inventory
+        (available, last_updated, product_id, reserved, store_id, total, version, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, default)
+2025-09-16 03:45:50.410 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Initialized inventory for 25 product-store combinations
+2025-09-16 03:45:50.410 [restartedMain] INFO  [c.c.m.i.s.DataInitializationService] - Sample data initialization completed
+2025-09-16 03:45:55.230 [http-nio-8080-exec-1] INFO  [o.a.c.c.C.[.[localhost].[/api/v1]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-16 03:45:55.230 [http-nio-8080-exec-1] INFO  [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2025-09-16 03:45:55.230 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected StandardServletMultipartResolver
+2025-09-16 03:45:55.230 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected AcceptHeaderLocaleResolver
+2025-09-16 03:45:55.230 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected FixedThemeResolver
+2025-09-16 03:45:55.231 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@33e34e15
+2025-09-16 03:45:55.232 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@51d01dc6
+2025-09-16 03:45:55.232 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-16 03:45:55.232 [http-nio-8080-exec-1] INFO  [o.s.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
+2025-09-16 03:46:12.715 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/swagger-ui/index.html", parameters={}
+2025-09-16 03:46:12.804 [http-nio-8080-exec-2] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 302 FOUND
+2025-09-16 03:46:12.827 [http-nio-8080-exec-3] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/swagger-ui/swagger-ui/index.html", parameters={}
+2025-09-16 03:46:12.841 [http-nio-8080-exec-3] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:46:12.927 [http-nio-8080-exec-5] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/swagger-ui/swagger-ui/index.css", parameters={}
+2025-09-16 03:46:12.927 [http-nio-8080-exec-4] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/swagger-ui/swagger-ui/swagger-ui.css", parameters={}
+2025-09-16 03:46:12.927 [http-nio-8080-exec-7] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/swagger-ui/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2025-09-16 03:46:12.927 [http-nio-8080-exec-6] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/swagger-ui/swagger-ui/swagger-ui-bundle.js", parameters={}
+2025-09-16 03:46:12.928 [http-nio-8080-exec-8] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/swagger-ui/swagger-ui/swagger-initializer.js", parameters={}
+2025-09-16 03:46:12.930 [http-nio-8080-exec-5] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:46:12.935 [http-nio-8080-exec-4] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:46:12.955 [http-nio-8080-exec-7] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:46:12.974 [http-nio-8080-exec-6] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:46:12.997 [http-nio-8080-exec-8] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:46:13.106 [http-nio-8080-exec-9] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/v3/api-docs/swagger-config", parameters={}
+2025-09-16 03:46:13.168 [http-nio-8080-exec-9] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:46:13.182 [http-nio-8080-exec-10] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/swagger-ui/swagger-ui/favicon-32x32.png", parameters={}
+2025-09-16 03:46:13.186 [http-nio-8080-exec-10] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:46:13.215 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - GET "/api/v1/v3/api-docs/inventory-api", parameters={}
+2025-09-16 03:46:13.678 [http-nio-8080-exec-1] INFO  [o.s.api.AbstractOpenApiResource] - Init duration for springdoc-openapi is: 450 ms
+2025-09-16 03:46:13.702 [http-nio-8080-exec-1] DEBUG [o.s.web.servlet.DispatcherServlet] - Completed 200 OK
+2025-09-16 03:47:03.454 [SpringApplicationShutdownHook] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-16 03:47:03.843 [tomcat-shutdown] INFO  [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+2025-09-16 03:47:03.869 [SpringApplicationShutdownHook] INFO  [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16 03:47:03.879 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists inventory cascade 
+2025-09-16 03:47:03.886 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists product cascade 
+2025-09-16 03:47:03.887 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists reservations cascade 
+2025-09-16 03:47:03.888 [SpringApplicationShutdownHook] DEBUG [org.hibernate.SQL] - 
+    drop table if exists stores cascade 
+2025-09-16 03:47:03.920 [SpringApplicationShutdownHook] WARN  [o.s.b.f.s.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-16 03:47:03.921 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2025-09-16 03:47:03.926 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
